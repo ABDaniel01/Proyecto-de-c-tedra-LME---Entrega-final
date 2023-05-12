@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --gris-oscuro: #909090;
+    --blanco:#fff;
+    --gris-claro: #ccc;
+    --gris-medio: #d9d9d9;
+    --gris: #b0b0b0;
+    --aqua-claro: #72e9d5;
+    --negro: #212121;
+    --aqua: #42d6c0;
+	--rojo: #f70101;
+}
+
+html{
+    font-size: 62.5%; /*10px = 1rem*/
+}
+
+body{
+    font-size: 16px; /*10px = 1rem*/
+    min-height: calc(100xh - 20rem);
+	background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../img/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.8rem;
+    color: var(--blanco);
+    margin-top: 3rem;
+}
+
+.boton{
+    text-decoration: none;   
+    background-color: var(--aqua);
+    padding: 1rem;
+    border-radius: 0.8rem;
+    width: 20rem;
+    text-align: center;
+}
+
+.boton:hover{
+    background-color: var(--aqua-claro);
+}
+
+.contenedor-formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.formulario{
+    background-color: var(--blanco);
+    padding: 3rem;
+    border-radius: 1rem;
+    padding-top: 0;
+    margin: 0 auto;
+}
+
+.formulario fieldset{
+    margin: 1rem;
+
+}
+
+.formulario fieldset .imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario fieldset .imagen img{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+}
+
+.formulario legend{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.campo{
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo .contenedor-boton{
+	padding-bottom: 2rem;
+}
+
+.campo label{
+    margin-bottom: 0.5rem;
+    color: var(--aqua);
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+    background-attachment: scroll;
+    }
+    
+    h1 {
+    font-size: 2.8rem;
+    }
+    
+    .contenedor-formulario {
+    margin-top: 3rem;
+    }
+    
+    .formulario {
+    width: 80%;
+    }
+    
+    .campo label {
+    font-size: 1.2rem;
+    }
+    
+    .campo input[type="text"],
+    .campo input[type="email"],
+    .campo textarea {
+    font-size: 1.4rem;
+    }
+    
+    .campo .contenedor-boton {
+    padding-bottom: 1rem;
+    }
+    
+    .boton {
+    width: 15rem;
+    font-size: 1.4rem;
+    }
+    }
+
+@media screen and (max-width: 480px) {
+    h1 {
+    font-size: 2rem;
+    }
+    
+    .contenedor-formulario {
+    margin-top: 2rem;
+    }
+    
+    .formulario {
+    width: 90%;
+    }
+    
+    .campo label {
+    font-size: 1.2rem;
+    }
+    
+    .campo input[type="text"],
+    .campo input[type="email"],
+    .campo textarea {
+    font-size: 1.2rem;
+    }
+    
+    .campo .contenedor-boton {
+    padding-bottom: 1rem;
+    }
+    
+    .boton {
+    width: 12rem;
+    font-size: 1.2rem;
+    }
+}
+
+.footer{
+    width: 200%;
+}

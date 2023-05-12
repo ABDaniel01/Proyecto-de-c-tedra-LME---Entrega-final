@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url(../img/cafe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+}
+
+.container .title{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+}
+
+.container .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background: linear-gradient(135deg, #72e9d5, #46d0bd);
+}
+
+.container form .detalles-usuario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+form .detalles-usuario .entrada{
+    margin-bottom: 15px;
+    width: 45%;
+}
+
+.detalles-usuario .entrada .detalles{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.detalles-usuario .entrada input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+    border-bottom-width: 2px;
+    transition: all 0.3s ease;
+}
+
+.detalles-usuario .entrada input:focus,
+.detalles-usuario .entrada input:valid{
+    border-color: #46d0bd;
+}
+
+form .gender-details .gender-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form .gender-details .category{
+    display: flex;
+    width: 80%;
+    margin: 14px 0;
+    justify-content: space-between;
+}
+
+.gender-details .category label{
+    display: flex;
+    align-items: center;
+}
+
+.gender-details .category .dot{
+    height: 18px;
+    width: 18px;
+    background: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 5px solid transparent;
+    transition: all 0.3s ease;
+}
+
+#dot-1:checked ~ .category label .one,
+#dot-2:checked ~ .category label .two,
+#dot-3:checked ~ .category label .three{
+    border-color: #ccc;
+    background: #72e9d5;
+}
+
+form input[type="radio"]{
+    display: none;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+form .button{
+    height: 45px;
+    margin: 45px 0;
+}
+
+form .button a{
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    background-color: #42d6c0;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+form .button a:hover{
+    background-color: #72e9d5;
+}
+
+@media (max-width: 584px) {
+    .container{
+        max-width: 100%;
+    }
+    form .detalles-usuario .entrada{
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    form .gender-details .category{
+        width: 100%;
+    }
+    .container form .detalles-usuario{
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+    .detalles-usuario::-webkit-scrollbar{
+        width: 0;
+    }
+}
+
+.error-message{
+	display: none;
+	font-size: 10px;
+	padding: 5px;
+	color: #f70101;
+}
