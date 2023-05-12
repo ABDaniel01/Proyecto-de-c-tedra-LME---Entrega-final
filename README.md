@@ -8,14 +8,6 @@ DESCRIPCIÓN Y CONTEXTO
 	Este sitio se desarrolló en un ambiente de buena comunicación y colaboración mutua, cada una de las partes que colaboraron en la creación de este sitio brindaron y recibieron ayuda
 	por parte de los demás miembros del equipo desarrollador.
 
-GUÍA DE USUARIO
-	
-	Una vez descargada la carpeta que contiene el archivo .html, hacer doble click y abrir con el navegador de preferencia. Una vez entre al sitio web podrá ver una descripción de la
-	lo que es el sitio. 
-	Si sigue bajando podrá ver algunos de los problemas, o preguntas, más comunes que los usuarios tienen con sus respectivas soluciones, puede verificar si su duda está dentro de ese
-	apartado y en caso de que no lo esté, puede seguir bajando y encontrarse con el apartado de "otro problema", en el cual podrá acceder a un formulario donde tendrá que llenar los 
-	campos con los datos que se le solicitan y, por supuesto, la duda que usted tiene para que el equipo pueda responderla a la brevedad. 
-
 AUTORES
 
 	Daniel Alejandro Ábrego Coto 
