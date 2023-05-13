@@ -26,7 +26,7 @@ LICENCIAS
 ENLACES DE INTERES
 
 	Enlace a los Mockups: https://drive.google.com/drive/folders/1di5cpBjHv4nze8KZ4qgplvltX5zkRQLT?usp=share_link
-	Tablero en Trello: https://trello.com/invite/b/REKeEupD/ATTI6ef527da294ca0607d24f3245e2d70f177A47E33/proyecto-fase-1
+	Tablero en Trello: https://trello.com/b/REKeEupD/proyecto-fase-1
 	Enlace al manual de usuario: https://drive.google.com/file/d/1ElM15BG77nkdGGNGWBTZjGIBmxDcKzOL/view?usp=share_link 
 	Enlace al manual técnico: https://drive.google.com/file/d/1GW-LK_erTe8MYgKu7J8ZE_W62JgO8vDZ/view?usp=share_link 
 	Enlace al proyecto subido en el servidor gratuito Netlify: https://proyectodecatedralme.netlify.app/
